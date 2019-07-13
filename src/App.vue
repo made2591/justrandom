@@ -7,6 +7,10 @@
           Created with ❤️ by
           <a href="https://madeddu.xyz">made2591</a>
         </p>
+        <p class="col s12 center-align grey-text text-darken-2">
+          ps: I would try to
+          <em>reset</em> your mind and try become an android developer...
+        </p>
         <p class="col s12 center-align" style="margin-top: 0px;">
           <a
             class="github-button"
@@ -375,14 +379,18 @@ export default {
       this.choices = JSON.parse(localStorage.choices);
       this.history.push(this.choices);
     }
+    // eslint-disable-next-line
     M.AutoInit();
     this.modal = document.getElementById('resultModal');
+    // eslint-disable-next-line
     M.Modal.init(this.modal, {});
+    // eslint-disable-next-line
     this.modal = M.Modal.getInstance(this.modal);
   },
   methods: {
     selectDistribution: () => {
       const elems = document.querySelectorAll('select');
+      // eslint-disable-next-line
       M.FormSelect.init(elems, {});
     },
     addChoice() {
@@ -421,7 +429,8 @@ export default {
         this.thanosModeActive === false &&
         this.countClick === this.thanosMode - 1
       ) {
-        M.toast({ html: 'One more to unveil the infinity gems...' });
+        // eslint-disable-next-line
+        M.toast({ html: "One more to unveil the infinity gems..." });
       }
       if (this.countClick === this.thanosMode) {
         this.thanosModeActive = true;
