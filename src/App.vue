@@ -1,23 +1,26 @@
 <template>
   <div class="app">
     <div class="container">
+      <p class="col s12 right-align" style="margin: 10px;">
+        <a
+          class="github-button"
+          href="https://github.com/made2591/justrandom"
+          data-icon="octicon-star"
+          aria-label="Star made2591/justrandom on GitHub"
+        >Star</a>
+      </p>
       <div class="row header">
         <h3 class="col s12 center-align grey-text text-darken-2">Just random</h3>
         <p class="col s12 center-align grey-text text-darken-2">
           Created with ❤️ by
           <a href="https://madeddu.xyz">made2591</a>
         </p>
-        <p class="col s12 center-align grey-text text-darken-2">
-          ps: I would try to
-          <em>reset</em> your mind and try become an android developer...
-        </p>
-        <p class="col s12 center-align" style="margin-top: 0px;">
-          <a
-            class="github-button"
-            href="https://github.com/made2591/justrandom"
-            data-icon="octicon-star"
-            aria-label="Star made2591/justrandom on GitHub"
-          >Star</a>
+        <p
+          class="col s12 center-align grey-text text-lighten-2"
+          style="margin-top:-5px; font-size: 10px;"
+        >
+          ps: try to
+          <em>reset</em> your mind to enter in android developer mode :-) ...
         </p>
       </div>
       <div class="row">
